@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$ra-font-path: 'assets/rpg-awesome/fonts';
+@import 'assets/rpg-awesome/scss/rpg-awesome';
+
+$fa-font-path: 'assets/font-awesome/webfonts';
+@import 'assets/font-awesome/scss/font-awesome-core';
+@import 'assets/font-awesome/scss/font-awesome-solid';
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
